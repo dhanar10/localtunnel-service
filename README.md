@@ -13,9 +13,9 @@ $ cat EOF | sudo tee /etc/localtunnel/mylocaltunnel.conf
 SUBDOMAIN=mydomain
 PORT=5000
 EOF
-```
 $ sudo systemctl enable localtunnel@mylocaltunnel
 $ sudo systemctl start localtunnel@mylocaltunnel
+```
 
 ## Credits
 
